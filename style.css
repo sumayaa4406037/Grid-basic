@@ -1,0 +1,13 @@
+.row{
+	display:grid;
+	background:black;
+	column-gap:20px;
+	grid-template-columns:repeat(4,324px);
+	justify-content:space-betwwen;
+	height:500px;
+	width:150%;
+}
+.row .col {
+	height:200px;
+	background:#E22E7F;
+}
